@@ -48,7 +48,7 @@ body {
 
 .container h1 {
   font-family: 'Crete Round', serif;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 50px;
   line-height: 64px;
   letter-spacing: 0.37px;
@@ -115,7 +115,7 @@ body {
 
 .work-container h1.title {
   font-family: "Crete Round", serif;
-  font-weight: normal;
+  font-weight:bold;
   font-size: 40px;
   line-height: 52px;
   color: #1c1a19;
@@ -150,7 +150,7 @@ body {
 
 .work-container .feature-project h2 {
   font-family: "Crete Round", serif;
-  font-weight: normal;
+  font-weight:bold;
   font-size: 32px;
   line-height: 44px;
   color: #091e42;
@@ -248,7 +248,7 @@ body {
 
 .work-container .projects .project h2 {
   font-family: "Crete Round", serif;
-  font-weight: normal;
+  font-weight:bold;
   font-size: 32px;
   line-height: 44px;
   color: #fff;
@@ -288,7 +288,7 @@ body {
   margin-left: 12px;
 }
 
-.work-container .projects .project a.project-btn {
+.project-btn {
   font-family: "Inter", serif;
   font-weight: bold;
   font-size: 17px;
@@ -299,8 +299,17 @@ body {
   background: #ff6b00;
   margin-top: 15px;
   padding: 7px;
+  cursor: pointer;
+  transition-duration: 00.4s;
 }
 
+.project-btn:hover {
+  text-decoration: underline;
+}
+
+.project-btn:active {
+  text-decoration: underline;
+}
 .about {
   background-color: #1c1a19;
   background-image: url('./images/bgimgabt.png');
