@@ -305,11 +305,14 @@ body {
 
 .project-btn:hover {
   text-decoration: underline;
+  text-decoration-color: blue;
 }
 
 .project-btn:active {
   text-decoration: underline;
+  text-decoration-color: blue;
 }
+
 .about {
   background-color: #1c1a19;
   background-image: url('./images/bgimgabt.png');
