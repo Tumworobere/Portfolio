@@ -1,5 +1,5 @@
 # My-Portfolio
-This is my second microverse project. In this project I built a first page of my portfolio(Skeleton).Thismarks the very first step for the portfolio project.The main objective for this project was to build template from figma using CSS and Flexbox. I created my-portfolio reposotory and cloned into my local machine. I have implemented linter,Github Flow and professional documentation which is one of the project building requirements at microverse.
+This is my second microverse project. In this project I built my portfolio(Mobile version).Thismarks the second step for the portfolio project.The main objective for this project was to build template from figma using CSS and Flexbox. I created my-portfolio reposotory and cloned into my local machine. I have implemented linter,Github Flow and professional documentation which is one of the project building requirements at microverse.
 
 ## Built With
 - HTML and CSS
