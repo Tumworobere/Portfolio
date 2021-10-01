@@ -285,7 +285,7 @@ body {
 }
 
 .work-container .projects .project .languages .project-language:nth-child(1) {
-  margin-left: 12px;
+ float: left;
 }
 
 .project-btn {
