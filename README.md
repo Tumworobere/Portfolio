@@ -5,7 +5,7 @@ This is my second project in the Microverse in which I built my portfolio . This
 - HTML and CSS
 
 ## Live Demo
-[Click Here to view my project](https://raw.githack.com/Tumworobere/Portfolio/desktop-version/index.html/)
+[Click Here to view my project](https://raw.githack.com/Tumworobere/Portfolio/tree/desktop-version/index.html/)
 ## Authors
 👤 **Annah Tumworobere**
 
