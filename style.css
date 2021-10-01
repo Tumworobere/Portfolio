@@ -268,7 +268,7 @@ body {
 
 .work-container .projects .project .languages ul {
   display: flex;
-  justify-content: flex-start;
+  float: left;
 }
 
 .work-container .projects .project .languages .project-language {
@@ -285,7 +285,7 @@ body {
 }
 
 .work-container .projects .project .languages .project-language:nth-child(1) {
- float: left;
+  float: left;
 }
 
 .project-btn {
