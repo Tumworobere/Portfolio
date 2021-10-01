@@ -1,11 +1,11 @@
 # My-Portfolio
-This is my second microverse project. In this project I built my portfolio(Mobile version).Thismarks the second step for the portfolio project.The main objective for this project was to build template from figma using CSS and Flexbox. I created my-portfolio reposotory and cloned into my local machine. I have implemented linter,Github Flow and professional documentation which is one of the project building requirements at microverse.
+This is my second project in the Microverse in which I built my portfolio . This is my responsive desktop version. The objective was to build template from figma by using CSS Flexbox. For that I created my-portfolio repo and cloned into my local machine.I have implemented linter,Github Flow and professional documentation which is one of the project building requirements at microverse.
 
 ## Built With
 - HTML and CSS
 
 ## Live Demo
-[Click Here to view my project](https://tumworobere.github.io/Portfolio/)
+[Click Here to view my project](https://raw.githack.com/Tumworobere/Portfolio/desktop-version/index.html/)
 ## Authors
 👤 **Annah Tumworobere**
 
