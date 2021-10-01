@@ -12,6 +12,78 @@ body {
   position: relative;
 }
 
+.project-btn:hover {
+  border: 1px solid #f55800;
+  color: #f55800;
+  background-color: #fff5e1;
+}
+
+.text-lg {
+  margin-top: -10px;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #f4f5f7;
+}
+
+.primary-text {
+  color: #ff6b00;
+}
+
+.primary-color {
+  background-color: #ff6b00;
+}
+
+.secondary-color {
+  background-color: #1c1a19;
+}
+
+.font-crete-round {
+  font-family: Crete Round, sans-serif;
+  font-weight: normal;
+}
+
+.font-inter {
+  font-family: Inter, sans-serif;
+}
+
+.text-white {
+  color: white;
+}
+
+.font-size-medium {
+  font-size: 18px;
+}
+
+.primary-button {
+  font-weight: bold;
+  text-align: center;
+  font-size: 17px;
+  border: none;
+  border-radius: 0;
+  color: #050505;
+  cursor: pointer;
+  width: inherit;
+  padding: 15px 0;
+  display: block;
+  transition: all 2s ease-in-out;
+}
+
+.primary-button:hover {
+  border: 1px solid #f55800;
+  color: #f55800;
+  background-color: #fff5e1;
+}
+
+.button-sm {
+  width: 120px;
+}
+
+.contact-btn-width {
+  width: 120px;
+}
+
 .site-header {
   background-color: #3c3a39;
   display: flex;
@@ -257,6 +329,8 @@ footer .icon ul {
   margin: 10px 0;
   padding: 12px;
   display: inline-block;
+  cursor: pointer;
+  transition: all 2s ease-in-out;
 }
 
 .work-container .projects {
@@ -484,11 +558,83 @@ footer {
     display: none;
   }
 
+  .project-btn:hover {
+    border: 1px solid #f55800;
+    color: #f55800;
+    background-color: #fff5e1;
+  }
+
+  .text-lg {
+    margin-top: -10px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #f4f5f7;
+  }
+
+  .primary-text {
+    color: #ff6b00;
+  }
+
+  .primary-color {
+    background-color: #ff6b00;
+  }
+
+  .secondary-color {
+    background-color: #1c1a19;
+  }
+
+  .font-crete-round {
+    font-family: Crete Round, sans-serif;
+    font-weight: normal;
+  }
+
+  .font-inter {
+    font-family: Inter, sans-serif;
+  }
+
+  .text-white {
+    color: white;
+  }
+
+  .font-size-medium {
+    font-size: 18px;
+  }
+
+  .primary-button {
+    font-weight: bold;
+    text-align: center;
+    font-size: 17px;
+    border: none;
+    border-radius: 0;
+    color: #050505;
+    cursor: pointer;
+    width: inherit;
+    padding: 15px 0;
+    display: block;
+    transition: all 2s ease-in-out;
+  }
+
+  .primary-button:hover {
+    border: 1px solid #f55800;
+    color: #f55800;
+    background-color: #fff5e1;
+  }
+
+  .button-sm {
+    width: 120px;
+  }
+
   .container .icon {
     display: flex;
     justify-content: flex-start;
     position: absolute;
     left: 26px;
+  }
+
+  .contact-btn-width {
+    width: 120px;
   }
 
   .container h1 {
@@ -692,13 +838,6 @@ footer {
 
   .work-container h2.title::after {
     width: 620px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .work-container {
-    width: 1150px;
-    margin: 120px auto;
   }
 }
 
