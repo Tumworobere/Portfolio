@@ -4,9 +4,10 @@
   overflow-x: hidden;
 }
 
-body {
-  position: relative;
-}
+@media (min-width: 992px) {
+  body {
+    overflow-x: hidden !important;
+  }
 
 .site-header {
   background-color: #3c3a39;
