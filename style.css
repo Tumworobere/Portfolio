@@ -136,6 +136,8 @@ footer .icon li img {
   letter-spacing: 0.37px;
   color: #ff6b00;
   margin: 12px 0;
+  animation-name: slide;
+  animation-duration: 4s;
 }
 
 .container h3 {
@@ -350,6 +352,7 @@ footer .icon ul {
   color: #fff;
   height: 386px;
   justify-content: flex-end;
+  transition: transform 2s;
 }
 
 .work-container .projects .project h2 {
@@ -706,6 +709,7 @@ footer {
     column-gap: 24px;
     margin: 0 98px;
     row-gap: 30px;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
   }
 
   .work-container .projects .project:nth-of-type(2),
@@ -731,6 +735,7 @@ footer {
     background-image: url("./images/projectimg1.png");
     background-repeat: no-repeat;
     background-size: cover;
+    transition: transform 2s;
   }
 
   .work-container .projects .project:nth-of-type(1):hover {
