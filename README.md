@@ -12,7 +12,7 @@ To get a local copy up and running follow these simple example steps.
 - HTML and CSS
 
 ## Live Demo
-[Click Here to view my project](https://raw.githack.com/Tumworobere/Portfolio/tree/desktop-version/index.html/)
+[Link to My Portfolio](https://tumworobere.github.io/Portfolio/)
 ## Authors
 👤 **Annah Tumworobere**
 
