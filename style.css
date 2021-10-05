@@ -82,6 +82,7 @@ body {
 
 .contact-btn-width {
   width: 120px;
+  margin-bottom: 20px;
 }
 
 .site-header {
@@ -430,6 +431,14 @@ footer .icon ul {
   padding-left: 7vw;
   height: 725px;
   position: relative;
+}
+
+.about .description h1{
+  width: 200px;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 500;
+  color: #f55800;
 }
 
 .about .description::after {
