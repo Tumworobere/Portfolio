@@ -434,7 +434,7 @@ footer .icon ul {
   position: relative;
 }
 
-.about .description h1{
+.about .description h1 {
   width: 200px;
   font-size: 46px;
   font-style: normal;
@@ -606,7 +606,6 @@ footer {
   .font-inter {
     font-family: 'Inter', sans-serif;
     width: 220px;
-
   }
 
   .text-white {
@@ -640,7 +639,6 @@ footer {
   .button-sm {
     width: 170px;
     padding: 15px 5px;
-
   }
 
   .container .icon {
