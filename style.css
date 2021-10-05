@@ -377,7 +377,7 @@ footer .icon ul {
 
 .work-container .projects .project .languages ul {
   display: flex;
-  justify-content: flex-start;
+  float: left;
 }
 
 .work-container .projects .project .languages .project-language {
@@ -394,7 +394,7 @@ footer .icon ul {
 }
 
 .work-container .projects .project .languages .project-language:nth-child(1) {
-  margin-left: 12px;
+  float: left;
 }
 
 .work-container .projects .project a.project-btn {
