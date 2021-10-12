@@ -1,19 +1,37 @@
-# My-Portfolio
-This is my second project in the Microverse in which I built my portfolio . This is my responsive desktop version. The objective was to build template from figma by using CSS Flexbox. For that I created my-portfolio repository and cloned into my local machine.I have implemented linter,Github Flow and professional documentation which is one of the project building requirements at microverse.
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-To get a local copy up and running follow these simple example steps.
+# My Portfolio
 
-    Enter git clone git@github.com:Tumworobere/Portfolio.gitt into terminal
-
-    Open in browser to view site.
+> This is my my portfolio project which happens to be my second project at Microverse.In this project,i implemented my hamburger menu with Javascript. The objective was to build template from figma by using CSS Flexbox and use Javascript. For that I created my-portfolio repo and cloned into my local machine. .I have implemented linters,Github Flow and professional documentation which is one of the project building requirements at microverse. 
 
 
 ## Built With
-- HTML and CSS
+
+- HTML, CSS
+- Linters, Markdown
+- GitHub Flow 
 
 ## Live Demo
 [Link to My Portfolio](https://tumworobere.github.io/Portfolio/)
-## Authors
+
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+1) Enter `git@github.com:Tumworobere/Portfolio.git` into terminal
+
+2) Open in browser to view site
+
+
+### Prerequisites
+
+- Code editor
+
+- Git and Github
+
+## Author
+
 👤 **Annah Tumworobere**
 
 - GitHub:(https://github.com/Tumworobere)
@@ -35,10 +53,9 @@ Give a ⭐ if you like this project!
 
 ## Acknowledgments
 
-    Hat tip to anyone whose code was used 🔰
-    Microverse program ⚡
-    My standup team 🏹
-    My family's support 🙌
+   - Microverse learning partner
+   - Morning session team
+   - Microverse
 
 
 ## 📝 License
