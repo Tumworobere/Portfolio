@@ -4,40 +4,80 @@
   overflow-x: hidden;
 }
 
+<<<<<<< HEAD
 /* hamburger page section styling */
 .close-ham-img {
-  float: right;
-  margin: 1rem 6% 0 0;
+=======
+.hamburger {
+  z-index: 100;
+  cursor: pointer;
 }
 
-.hamburger-page {
+.nav-menu.active {
+  left: 0;
+}
+
+.close {
+  display: none;
+  z-index: 9999;
+  cursor: pointer;
+  font-size: 30px;
+  color: #fff;
+}
+
+.menu {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: black;
+  color: white;
+  list-style: none;
+  padding-top: 4rem;
+}
+
+/* .showMenu {
+  transform: translateY(0);
+} */
+
+/* .close-ham-img {
+>>>>>>> 0d8bffa5d1e82d58e31f65df667dcb8ae206d6ab
+  float: right;
+  margin: 1rem 6% 0 0;
+} */
+
+/* .hamburger-page {
   display: none;
   color: #fff5e1;
   background-color: #3c3a39;
   height: 93vh;
   width: 100%;
-}
+} */
 
-.hamb-page-elements {
+/* .hamb-page-elements {
   display: flex;
   margin: 5rem 9% 0 9%;
-}
+} */
 
-.hamb-page-elements .menu-inside-hamb-page a.ul-items::after {
+/* .hamb-page-elements .menu-inside-hamb-page a.ul-items::after {
   content: "";
   display: block;
   background-color: #6f6c6b;
   width: 80%;
   height: 2px;
   margin: 15px 0;
-}
+} */
 
 .ul-items {
   color: #fff5e1;
   text-decoration: none;
 }
 
-.menu-inside-hamb-page {
+/* .menu-inside-hamb-page {
   width: 100%;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -45,7 +85,7 @@
   font-size: 32px;
   line-height: 44px;
   align-items: center;
-}
+} */
 
 /* black line style */
 .blackline {
@@ -198,9 +238,9 @@ footer .icon li img {
   color: #505f79;
 }
 
-.site-header .nav-menu .menu-list {
+/* .site-header .nav-menu .menu-list {
   display: none;
-}
+} */
 
 .site-header .nav-menu img {
   height: 26px;
@@ -650,6 +690,31 @@ footer {
     background-repeat: no-repeat;
     height: 850px;
     overflow: hidden;
+  }
+
+  .menu {
+    display: flex;
+    position: unset;
+    transform: unset;
+    transition: unset;
+    top: unset;
+    left: unset;
+    right: unset;
+    bottom: unset;
+    z-index: unset;
+    background: unset;
+    color: unset;
+    list-style: none;
+    padding-top: unset;
+  }
+
+  .menu li {
+    padding-right: 13px;
+  }
+
+  .hamburger,
+  .close {
+    display: none;
   }
 
   .container .icon ul {
