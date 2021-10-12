@@ -1,55 +1,19 @@
-const menu = document.querySelector(".menu");
-const menuItems = document.querySelectorAll(".menuItem");
-const hamburger= document.querySelector(".hamburger");
-const close= document.querySelector(".close");
-const open = document.querySelector(".menuIcon");
+const makeMenuDisappear = document.querySelector('.icon');
+const firstMainPage = document.querySelector('.first-mainpage');
+const hamburgerPage = document.querySelector('.hamburger-page');
+const hambClose = document.querySelector('.close-ham-img');
+const otherClose = document.querySelector('.menu-inside-hamb-page');
 
-
-hamburger.addEventListener('click', mobileMenu);
-close.addEventListener('click', switchIcons);
-menuItems.forEach((n) => n.addEventListener('click', closeMenu));
-
-function mobileMenu() {
-  menu.classList.toggle('active');
-  toggleDisplay(open, 'none');
-  toggleDisplay(close, 'block');
+function show() {
+  firstMainPage.style.display = 'none';
+  hamburgerPage.style.display = 'block';
 }
 
-function closeMenu() {
-  menu.classList.remove('active');
-  toggleDisplay(open, 'block');
-  toggleDisplay(close, 'none');
+function close() {
+  firstMainPage.style.display = 'block';
+  hamburgerPage.style.display = 'none';
 }
 
-function switchIcons() {
-  toggleDisplay(open, 'block');
-  toggleDisplay(close, 'none');
-  closeMenu();
-}
-
-function toggleDisplay(element, val) {
-  element.style.display = val;
-}
-
-// function toggleMenu() {
-//   console.log("Working");
-//   if (menu.classList.contains("showMenu")) {
-//     menu.classList.remove("showMenu");
-//     closeIcon.style.display = "none";
-//     menuIcon.style.display = "block";
-//   } else {
-//     menu.classList.add("showMenu");
-//     closeIcon.style.display = "block";
-//     menuIcon.style.display = "none";
-//   }
-// }
-
-// hamburger.addEventListener("click", toggleMenu());
-
-// menuItems = document.querySelectorAll(".menuItem");
-
-// menuItems.forEach( 
-//   function(menuItem) { 
-//     menuItem.addEventListener("click", toggleMenu);
-//   }
-// )
+makeMenuDisappear.addEventListener('click', show);
+hambClose.addEventListener('click', close);
+otherClose.addEventListener('click', close);
