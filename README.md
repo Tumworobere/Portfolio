@@ -34,9 +34,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Annah Tumworobere**
 
-- GitHub:(https://github.com/Tumworobere)
-- Twitter:(https://twitter.com/Tannah2090)
-- LinkedIn:(www.linkedin.com/in/annah-tumworobere-6258b443)
+- GitHub: [@Tumworobere](https://github.com/Tumworobere)
+- Twitter: [Twitter](https://twitter.com/Tannah2090)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/annah-tumworobere-6258b443)
 
 
 ## 🤝 Contributing
@@ -61,3 +61,5 @@ Give a ⭐ if you like this project!
 ## 📝 License
 
 This project is **MIT** licensed.
+
+
