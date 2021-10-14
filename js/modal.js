@@ -62,9 +62,7 @@ const projects = [
   projectList.sixthProject,
 ];
 
-
 function modal(number) {
-  const modalSection = document.querySelector('#modal');
   modalSection.style.display = 'flex';
   document.querySelector('#portfolio').classList.add('activeblur');
   document.querySelector('.about').classList.add('activeblur');
@@ -87,12 +85,9 @@ function modal(number) {
   document.querySelectorAll('.modal-btn > a')[1].href = projects[number].sourceCode;
 }
 
-
 function closeModal() {
   document.querySelector('#modal').style.display = 'none';
   document.querySelector('*').style.overflow = 'auto';
   document.querySelector('#portfolio').classList.remove('activeblur');
   document.querySelector('.about').classList.remove('activeblur');
 }
-
-
