@@ -94,9 +94,3 @@ function closeModal() {
   document.querySelector('#portfolio').classList.remove('activeblur');
   document.querySelector('.about').classList.remove('activeblur');
 }
-
-// function toggle() {
-// const closed = document.querySelector('#close-btn');
-// closed.classList.toggle('hidden');
-// }
-// toggle();
