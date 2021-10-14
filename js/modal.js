@@ -62,7 +62,6 @@ const projects = [
   projectList.sixthProject,
 ];
 
-// eslint-disable-next-line no-unused-vars
 function modal(number) {
   const modalSection = document.querySelector('#modal');
   modalSection.style.display = 'flex';
@@ -87,16 +86,9 @@ function modal(number) {
   document.querySelectorAll('.modal-btn > a')[1].href = projects[number].sourceCode;
 }
 
-// eslint-disable-next-line no-unused-vars
 function closeModal() {
   document.querySelector('#modal').style.display = 'none';
   document.querySelector('*').style.overflow = 'auto';
   document.querySelector('#portfolio').classList.remove('activeblur');
   document.querySelector('.about').classList.remove('activeblur');
 }
-
-// function toggle() {
-// const closed = document.querySelector('#close-btn');
-// closed.classList.toggle('hidden');
-// }
-// toggle();
