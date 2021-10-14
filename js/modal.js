@@ -62,6 +62,7 @@ const projects = [
   projectList.sixthProject,
 ];
 
+// modal
 function modal(number) {
   const modalSection = document.querySelector('#modal');
   modalSection.style.display = 'flex';
@@ -86,6 +87,7 @@ function modal(number) {
   document.querySelectorAll('.modal-btn > a')[1].href = projects[number].sourceCode;
 }
 
+// close modal
 function closeModal() {
   document.querySelector('#modal').style.display = 'none';
   document.querySelector('*').style.overflow = 'auto';
