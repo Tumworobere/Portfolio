@@ -4,6 +4,7 @@
   overflow-x: hidden;
 }
 
+/* hamburger page section styling */
 .close-ham-img {
   float: right;
   margin: 1rem 6% 0 0;
@@ -46,6 +47,7 @@
   align-items: center;
 }
 
+/* black line style */
 .blackline {
   display: flex;
   justify-content: center;
